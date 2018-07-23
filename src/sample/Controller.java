@@ -50,6 +50,7 @@ public class Controller {
             answer.setText("");
             //Initialize variable for random value
             int random_number = Random();
+            //Sets the answer text value
             switch (random_number){
                 case 0:
                     answer.setText("It is certain.");
